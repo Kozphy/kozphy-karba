@@ -1,0 +1,9 @@
+{
+  "case_id": "case_27_hidden_regression",
+  "title": "Synthetic hidden regression #27",
+  "category": "hidden_regression",
+  "defect_class": "regression",
+  "expect_accepted_for": [
+    "oracle"
+  ]
+}

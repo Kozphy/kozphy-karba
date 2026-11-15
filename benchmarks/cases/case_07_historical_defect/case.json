@@ -1,0 +1,9 @@
+{
+  "case_id": "case_07_historical_defect",
+  "title": "Synthetic historical defect #7",
+  "category": "historical_defect",
+  "defect_class": "logic",
+  "expect_accepted_for": [
+    "oracle"
+  ]
+}

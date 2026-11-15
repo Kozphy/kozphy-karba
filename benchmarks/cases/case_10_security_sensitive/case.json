@@ -1,0 +1,9 @@
+{
+  "case_id": "case_10_security_sensitive",
+  "title": "Synthetic security sensitive #10",
+  "category": "security_sensitive",
+  "defect_class": "security",
+  "expect_accepted_for": [
+    "oracle"
+  ]
+}

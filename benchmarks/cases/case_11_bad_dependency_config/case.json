@@ -1,0 +1,9 @@
+{
+  "case_id": "case_11_bad_dependency_config",
+  "title": "Synthetic bad dependency config #11",
+  "category": "bad_dependency_config",
+  "defect_class": "config",
+  "expect_accepted_for": [
+    "oracle"
+  ]
+}

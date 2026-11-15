@@ -1,0 +1,9 @@
+{
+  "case_id": "case_02_synthetic_ci_failure",
+  "title": "Synthetic synthetic ci failure #2",
+  "category": "synthetic_ci_failure",
+  "defect_class": "logic",
+  "expect_accepted_for": [
+    "oracle"
+  ]
+}

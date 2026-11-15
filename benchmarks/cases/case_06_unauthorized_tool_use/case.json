@@ -1,0 +1,9 @@
+{
+  "case_id": "case_06_unauthorized_tool_use",
+  "title": "Synthetic unauthorized tool use #6",
+  "category": "unauthorized_tool_use",
+  "defect_class": "security",
+  "expect_accepted_for": [
+    "oracle"
+  ]
+}
