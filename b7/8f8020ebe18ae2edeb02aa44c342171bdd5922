@@ -1,0 +1,461 @@
+.gitignore
+  s_7a468af0e95a14::t_00ba6bab30d1df 1-11
+README.md
+  s_7a468af0e95a14::t_e817e364c3b5ce 1-58
+benchmarks/cases/case_01_historical_defect/case.json
+  s_7a468af0e95a14::t_567058ac8085d8 1-9
+benchmarks/cases/case_01_historical_defect/pyproject.toml
+  s_7a468af0e95a14::t_cff544a9202c3e 1-2
+benchmarks/cases/case_01_historical_defect/pytest.ini
+  s_7a468af0e95a14::t_4861879fbb1d9b 1-2
+benchmarks/cases/case_01_historical_defect/src/calc.py
+  s_7a468af0e95a14::t_c78f4ea8bb23bd 1-3
+benchmarks/cases/case_01_historical_defect/tests/test_calc.py
+  s_7a468af0e95a14::t_9328e57b0e5157 1-9
+benchmarks/cases/case_02_synthetic_ci_failure/case.json
+  s_7a468af0e95a14::t_39ba18401d3ba5 1-9
+benchmarks/cases/case_02_synthetic_ci_failure/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_a38fb01b100326 1-9
+benchmarks/cases/case_02_synthetic_ci_failure/pyproject.toml
+  s_7a468af0e95a14::t_4f6d804821316d 1-2
+benchmarks/cases/case_02_synthetic_ci_failure/pytest.ini
+  s_7a468af0e95a14::t_cd657faa244698 1-2
+benchmarks/cases/case_02_synthetic_ci_failure/src/calc.py
+  s_7a468af0e95a14::t_290bb61ae8858e 1-3
+benchmarks/cases/case_02_synthetic_ci_failure/tests/test_calc.py
+  s_7a468af0e95a14::t_a8bc8fb563ad08 1-9
+benchmarks/cases/case_03_hidden_regression/case.json
+  s_7a468af0e95a14::t_f48ff6026f96b8 1-9
+benchmarks/cases/case_03_hidden_regression/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_25b5ee6fa52608 1-9
+benchmarks/cases/case_03_hidden_regression/pyproject.toml
+  s_7a468af0e95a14::t_daa57e8d4af04c 1-2
+benchmarks/cases/case_03_hidden_regression/pytest.ini
+  s_7a468af0e95a14::t_7597934e5d93d4 1-2
+benchmarks/cases/case_03_hidden_regression/src/calc.py
+  s_7a468af0e95a14::t_4a42326de35b30 1-3
+benchmarks/cases/case_03_hidden_regression/tests/test_calc.py
+  s_7a468af0e95a14::t_2915ed20b133de 1-9
+benchmarks/cases/case_04_security_sensitive/case.json
+  s_7a468af0e95a14::t_5b96b01f626765 1-9
+benchmarks/cases/case_04_security_sensitive/pyproject.toml
+  s_7a468af0e95a14::t_22ed133ae5bc89 1-2
+benchmarks/cases/case_04_security_sensitive/pytest.ini
+  s_7a468af0e95a14::t_fd2a3b41505678 1-2
+benchmarks/cases/case_04_security_sensitive/src/calc.py
+  s_7a468af0e95a14::t_7e4ea2cab755b1 1-3
+benchmarks/cases/case_04_security_sensitive/tests/test_calc.py
+  s_7a468af0e95a14::t_825293b1166319 1-9
+benchmarks/cases/case_05_bad_dependency_config/case.json
+  s_7a468af0e95a14::t_787ab6a35412c5 1-9
+benchmarks/cases/case_05_bad_dependency_config/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_74cfb86dfb890f 1-9
+benchmarks/cases/case_05_bad_dependency_config/pyproject.toml
+  s_7a468af0e95a14::t_a8171811a21c68 1-2
+benchmarks/cases/case_05_bad_dependency_config/pytest.ini
+  s_7a468af0e95a14::t_f49a2a77d1c102 1-2
+benchmarks/cases/case_05_bad_dependency_config/src/calc.py
+  s_7a468af0e95a14::t_acaa075d0ecb45 1-3
+benchmarks/cases/case_05_bad_dependency_config/tests/test_calc.py
+  s_7a468af0e95a14::t_51d46f376a4dfa 1-9
+benchmarks/cases/case_06_unauthorized_tool_use/case.json
+  s_7a468af0e95a14::t_1fa55682b1ad3a 1-9
+benchmarks/cases/case_06_unauthorized_tool_use/pyproject.toml
+  s_7a468af0e95a14::t_e6eacf0fcd6c75 1-2
+benchmarks/cases/case_06_unauthorized_tool_use/pytest.ini
+  s_7a468af0e95a14::t_b835ff1c33fb3b 1-2
+benchmarks/cases/case_06_unauthorized_tool_use/src/calc.py
+  s_7a468af0e95a14::t_c95447561d1638 1-3
+benchmarks/cases/case_06_unauthorized_tool_use/tests/test_calc.py
+  s_7a468af0e95a14::t_5106fd1e1824b5 1-9
+benchmarks/cases/case_07_historical_defect/case.json
+  s_7a468af0e95a14::t_7d9ebfbfe33496 1-9
+benchmarks/cases/case_07_historical_defect/pyproject.toml
+  s_7a468af0e95a14::t_79686093fdfe43 1-2
+benchmarks/cases/case_07_historical_defect/pytest.ini
+  s_7a468af0e95a14::t_8c7601e3544bec 1-2
+benchmarks/cases/case_07_historical_defect/src/calc.py
+  s_7a468af0e95a14::t_1cffee8bd52c39 1-3
+benchmarks/cases/case_07_historical_defect/tests/test_calc.py
+  s_7a468af0e95a14::t_2dbbb5ad447e4c 1-9
+benchmarks/cases/case_08_synthetic_ci_failure/case.json
+  s_7a468af0e95a14::t_870ff6e60f5d94 1-9
+benchmarks/cases/case_08_synthetic_ci_failure/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_627ea00da87409 1-9
+benchmarks/cases/case_08_synthetic_ci_failure/pyproject.toml
+  s_7a468af0e95a14::t_a42e6cf236d40f 1-2
+benchmarks/cases/case_08_synthetic_ci_failure/pytest.ini
+  s_7a468af0e95a14::t_b8d99fb303c4d2 1-2
+benchmarks/cases/case_08_synthetic_ci_failure/src/calc.py
+  s_7a468af0e95a14::t_c4276f51db8808 1-3
+benchmarks/cases/case_08_synthetic_ci_failure/tests/test_calc.py
+  s_7a468af0e95a14::t_c7a8782fed39c1 1-9
+benchmarks/cases/case_09_hidden_regression/case.json
+  s_7a468af0e95a14::t_9129ca7b7ddbcd 1-9
+benchmarks/cases/case_09_hidden_regression/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_2b2dd3cab2f3c3 1-9
+benchmarks/cases/case_09_hidden_regression/pyproject.toml
+  s_7a468af0e95a14::t_eafd936515b1db 1-2
+benchmarks/cases/case_09_hidden_regression/pytest.ini
+  s_7a468af0e95a14::t_3f03cadd5eb32f 1-2
+benchmarks/cases/case_09_hidden_regression/src/calc.py
+  s_7a468af0e95a14::t_bf791b4d44398e 1-3
+benchmarks/cases/case_09_hidden_regression/tests/test_calc.py
+  s_7a468af0e95a14::t_31b5baeed7d871 1-9
+benchmarks/cases/case_10_security_sensitive/case.json
+  s_7a468af0e95a14::t_80b45f8ab1d851 1-9
+benchmarks/cases/case_10_security_sensitive/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_b352c93fc1c094 1-9
+benchmarks/cases/case_10_security_sensitive/pyproject.toml
+  s_7a468af0e95a14::t_88afdbbc7d72f9 1-2
+benchmarks/cases/case_10_security_sensitive/pytest.ini
+  s_7a468af0e95a14::t_50c33b959d1e7f 1-2
+benchmarks/cases/case_10_security_sensitive/src/calc.py
+  s_7a468af0e95a14::t_50085e13425919 1-3
+benchmarks/cases/case_10_security_sensitive/tests/test_calc.py
+  s_7a468af0e95a14::t_763c135a238cdc 1-9
+benchmarks/cases/case_11_bad_dependency_config/case.json
+  s_7a468af0e95a14::t_9c8c9c11949593 1-9
+benchmarks/cases/case_11_bad_dependency_config/pyproject.toml
+  s_7a468af0e95a14::t_9192079dbb142a 1-2
+benchmarks/cases/case_11_bad_dependency_config/pytest.ini
+  s_7a468af0e95a14::t_33915f3e311570 1-2
+benchmarks/cases/case_11_bad_dependency_config/src/calc.py
+  s_7a468af0e95a14::t_4a442bec5ddd55 1-3
+benchmarks/cases/case_11_bad_dependency_config/tests/test_calc.py
+  s_7a468af0e95a14::t_51487a109a1778 1-9
+benchmarks/cases/case_12_unauthorized_tool_use/case.json
+  s_7a468af0e95a14::t_dcd33c06d862ed 1-9
+benchmarks/cases/case_12_unauthorized_tool_use/pyproject.toml
+  s_7a468af0e95a14::t_1766b479001f57 1-2
+benchmarks/cases/case_12_unauthorized_tool_use/pytest.ini
+  s_7a468af0e95a14::t_d119b7b8dbec01 1-2
+benchmarks/cases/case_12_unauthorized_tool_use/src/calc.py
+  s_7a468af0e95a14::t_70653e294c6c09 1-3
+benchmarks/cases/case_12_unauthorized_tool_use/tests/test_calc.py
+  s_7a468af0e95a14::t_80a1343a0682d0 1-9
+benchmarks/cases/case_13_historical_defect/case.json
+  s_7a468af0e95a14::t_1f570fb8e95036 1-9
+benchmarks/cases/case_13_historical_defect/pyproject.toml
+  s_7a468af0e95a14::t_9e8b6219956567 1-2
+benchmarks/cases/case_13_historical_defect/pytest.ini
+  s_7a468af0e95a14::t_c46ea611e6064e 1-2
+benchmarks/cases/case_13_historical_defect/src/calc.py
+  s_7a468af0e95a14::t_5d09caf03ac16b 1-3
+benchmarks/cases/case_13_historical_defect/tests/test_calc.py
+  s_7a468af0e95a14::t_8209863fb94afd 1-9
+benchmarks/cases/case_14_synthetic_ci_failure/case.json
+  s_7a468af0e95a14::t_5d6b9da0cf72a2 1-9
+benchmarks/cases/case_14_synthetic_ci_failure/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_2374e873135ce7 1-9
+benchmarks/cases/case_14_synthetic_ci_failure/pyproject.toml
+  s_7a468af0e95a14::t_c822e5e4209b87 1-2
+benchmarks/cases/case_14_synthetic_ci_failure/pytest.ini
+  s_7a468af0e95a14::t_da5a81d42ac5ad 1-2
+benchmarks/cases/case_14_synthetic_ci_failure/src/calc.py
+  s_7a468af0e95a14::t_db3655707e88ad 1-3
+benchmarks/cases/case_14_synthetic_ci_failure/tests/test_calc.py
+  s_7a468af0e95a14::t_37a3cd10383492 1-9
+benchmarks/cases/case_15_hidden_regression/case.json
+  s_7a468af0e95a14::t_717bb063fc6295 1-9
+benchmarks/cases/case_15_hidden_regression/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_896de2c58fa132 1-9
+benchmarks/cases/case_15_hidden_regression/pyproject.toml
+  s_7a468af0e95a14::t_7827f0a2e574a7 1-2
+benchmarks/cases/case_15_hidden_regression/pytest.ini
+  s_7a468af0e95a14::t_bec22502ca7f2f 1-2
+benchmarks/cases/case_15_hidden_regression/src/calc.py
+  s_7a468af0e95a14::t_0d16a58cbef957 1-3
+benchmarks/cases/case_15_hidden_regression/tests/test_calc.py
+  s_7a468af0e95a14::t_d47988c6853fa5 1-9
+benchmarks/cases/case_16_security_sensitive/case.json
+  s_7a468af0e95a14::t_13d884083a44ea 1-9
+benchmarks/cases/case_16_security_sensitive/pyproject.toml
+  s_7a468af0e95a14::t_1aa6785cd8791d 1-2
+benchmarks/cases/case_16_security_sensitive/pytest.ini
+  s_7a468af0e95a14::t_1208c91677c60c 1-2
+benchmarks/cases/case_16_security_sensitive/src/calc.py
+  s_7a468af0e95a14::t_94d01ccbfef37d 1-3
+benchmarks/cases/case_16_security_sensitive/tests/test_calc.py
+  s_7a468af0e95a14::t_3fe4cbef9e8998 1-9
+benchmarks/cases/case_17_bad_dependency_config/case.json
+  s_7a468af0e95a14::t_5f219143c290bc 1-9
+benchmarks/cases/case_17_bad_dependency_config/pyproject.toml
+  s_7a468af0e95a14::t_7f11d47f132325 1-2
+benchmarks/cases/case_17_bad_dependency_config/pytest.ini
+  s_7a468af0e95a14::t_a53f22b9ecd365 1-2
+benchmarks/cases/case_17_bad_dependency_config/src/calc.py
+  s_7a468af0e95a14::t_950d4eed5cca03 1-3
+benchmarks/cases/case_17_bad_dependency_config/tests/test_calc.py
+  s_7a468af0e95a14::t_8732525fcc8383 1-9
+benchmarks/cases/case_18_unauthorized_tool_use/case.json
+  s_7a468af0e95a14::t_8a2f0f9fd6cc81 1-9
+benchmarks/cases/case_18_unauthorized_tool_use/pyproject.toml
+  s_7a468af0e95a14::t_97a2ccfc1d351f 1-2
+benchmarks/cases/case_18_unauthorized_tool_use/pytest.ini
+  s_7a468af0e95a14::t_ff487d1327860c 1-2
+benchmarks/cases/case_18_unauthorized_tool_use/src/calc.py
+  s_7a468af0e95a14::t_3b3501eb093ee8 1-3
+benchmarks/cases/case_18_unauthorized_tool_use/tests/test_calc.py
+  s_7a468af0e95a14::t_dc19d1e5281f58 1-9
+benchmarks/cases/case_19_historical_defect/case.json
+  s_7a468af0e95a14::t_814795b60da613 1-9
+benchmarks/cases/case_19_historical_defect/pyproject.toml
+  s_7a468af0e95a14::t_1a6726b5010eab 1-2
+benchmarks/cases/case_19_historical_defect/pytest.ini
+  s_7a468af0e95a14::t_37d9e3f4186fbe 1-2
+benchmarks/cases/case_19_historical_defect/src/calc.py
+  s_7a468af0e95a14::t_017f35beb8f4e6 1-3
+benchmarks/cases/case_19_historical_defect/tests/test_calc.py
+  s_7a468af0e95a14::t_f4625fc4fdf7b0 1-9
+benchmarks/cases/case_20_synthetic_ci_failure/case.json
+  s_7a468af0e95a14::t_cafcb1b25e60bd 1-9
+benchmarks/cases/case_20_synthetic_ci_failure/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_c2080ed616c016 1-9
+benchmarks/cases/case_20_synthetic_ci_failure/pyproject.toml
+  s_7a468af0e95a14::t_9e596bae8cd8cc 1-2
+benchmarks/cases/case_20_synthetic_ci_failure/pytest.ini
+  s_7a468af0e95a14::t_07fd6034169456 1-2
+benchmarks/cases/case_20_synthetic_ci_failure/src/calc.py
+  s_7a468af0e95a14::t_73d95dbfe5dc3f 1-3
+benchmarks/cases/case_20_synthetic_ci_failure/tests/test_calc.py
+  s_7a468af0e95a14::t_d404aaa238dc7c 1-9
+benchmarks/cases/case_21_hidden_regression/case.json
+  s_7a468af0e95a14::t_27a8fd131a8044 1-9
+benchmarks/cases/case_21_hidden_regression/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_fa0e9650f3b8ec 1-9
+benchmarks/cases/case_21_hidden_regression/pyproject.toml
+  s_7a468af0e95a14::t_5cf7630f265856 1-2
+benchmarks/cases/case_21_hidden_regression/pytest.ini
+  s_7a468af0e95a14::t_57c66974cfc5f3 1-2
+benchmarks/cases/case_21_hidden_regression/src/calc.py
+  s_7a468af0e95a14::t_f5eb8b4a460f5e 1-3
+benchmarks/cases/case_21_hidden_regression/tests/test_calc.py
+  s_7a468af0e95a14::t_f2605e3a793f5c 1-9
+benchmarks/cases/case_22_security_sensitive/case.json
+  s_7a468af0e95a14::t_bebb30889bc1c8 1-9
+benchmarks/cases/case_22_security_sensitive/pyproject.toml
+  s_7a468af0e95a14::t_5e96a2181febb1 1-2
+benchmarks/cases/case_22_security_sensitive/pytest.ini
+  s_7a468af0e95a14::t_6be15974062095 1-2
+benchmarks/cases/case_22_security_sensitive/src/calc.py
+  s_7a468af0e95a14::t_780505930c8951 1-3
+benchmarks/cases/case_22_security_sensitive/tests/test_calc.py
+  s_7a468af0e95a14::t_0b5616d1cf460e 1-9
+benchmarks/cases/case_23_bad_dependency_config/case.json
+  s_7a468af0e95a14::t_48caa4e756ac3d 1-9
+benchmarks/cases/case_23_bad_dependency_config/pyproject.toml
+  s_7a468af0e95a14::t_18cdd8e5cdcdce 1-2
+benchmarks/cases/case_23_bad_dependency_config/pytest.ini
+  s_7a468af0e95a14::t_adfdbb21bf3e3c 1-2
+benchmarks/cases/case_23_bad_dependency_config/src/calc.py
+  s_7a468af0e95a14::t_8ee006c2dc6dd9 1-3
+benchmarks/cases/case_23_bad_dependency_config/tests/test_calc.py
+  s_7a468af0e95a14::t_6ba9e414a5e3a3 1-9
+benchmarks/cases/case_24_unauthorized_tool_use/case.json
+  s_7a468af0e95a14::t_fb414d3852c60d 1-9
+benchmarks/cases/case_24_unauthorized_tool_use/pyproject.toml
+  s_7a468af0e95a14::t_a72257ff78c1e6 1-2
+benchmarks/cases/case_24_unauthorized_tool_use/pytest.ini
+  s_7a468af0e95a14::t_5d1c4186a6a13c 1-2
+benchmarks/cases/case_24_unauthorized_tool_use/src/calc.py
+  s_7a468af0e95a14::t_74a2e4958ea500 1-3
+benchmarks/cases/case_24_unauthorized_tool_use/tests/test_calc.py
+  s_7a468af0e95a14::t_6577d25928e636 1-9
+benchmarks/cases/case_25_historical_defect/case.json
+  s_7a468af0e95a14::t_65292c28a3cdcc 1-9
+benchmarks/cases/case_25_historical_defect/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_a044c79e493450 1-9
+benchmarks/cases/case_25_historical_defect/pyproject.toml
+  s_7a468af0e95a14::t_bfeb38d08dc298 1-2
+benchmarks/cases/case_25_historical_defect/pytest.ini
+  s_7a468af0e95a14::t_4c7b84c1df1e04 1-2
+benchmarks/cases/case_25_historical_defect/src/calc.py
+  s_7a468af0e95a14::t_65333014116c90 1-3
+benchmarks/cases/case_25_historical_defect/tests/test_calc.py
+  s_7a468af0e95a14::t_47fc76e2b7a741 1-9
+benchmarks/cases/case_26_synthetic_ci_failure/case.json
+  s_7a468af0e95a14::t_e53b9861f3061d 1-9
+benchmarks/cases/case_26_synthetic_ci_failure/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_fb407339742468 1-9
+benchmarks/cases/case_26_synthetic_ci_failure/pyproject.toml
+  s_7a468af0e95a14::t_826a0805c72e38 1-2
+benchmarks/cases/case_26_synthetic_ci_failure/pytest.ini
+  s_7a468af0e95a14::t_fff2d19c38e06e 1-2
+benchmarks/cases/case_26_synthetic_ci_failure/src/calc.py
+  s_7a468af0e95a14::t_053b25c695ce31 1-3
+benchmarks/cases/case_26_synthetic_ci_failure/tests/test_calc.py
+  s_7a468af0e95a14::t_dc433f280ffdc6 1-9
+benchmarks/cases/case_27_hidden_regression/case.json
+  s_7a468af0e95a14::t_4bb9a4137d5cfc 1-9
+benchmarks/cases/case_27_hidden_regression/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_b4b6ec1ab18318 1-9
+benchmarks/cases/case_27_hidden_regression/pyproject.toml
+  s_7a468af0e95a14::t_3b0062aff27900 1-2
+benchmarks/cases/case_27_hidden_regression/pytest.ini
+  s_7a468af0e95a14::t_540387c001a2ca 1-2
+benchmarks/cases/case_27_hidden_regression/src/calc.py
+  s_7a468af0e95a14::t_91799a347fb6e4 1-3
+benchmarks/cases/case_27_hidden_regression/tests/test_calc.py
+  s_7a468af0e95a14::t_4c1ea8bb2a2fac 1-9
+benchmarks/cases/case_28_security_sensitive/case.json
+  s_7a468af0e95a14::t_91407122a6ee3c 1-9
+benchmarks/cases/case_28_security_sensitive/pyproject.toml
+  s_7a468af0e95a14::t_f19b6785e034ee 1-2
+benchmarks/cases/case_28_security_sensitive/pytest.ini
+  s_7a468af0e95a14::t_de61883e492c2f 1-2
+benchmarks/cases/case_28_security_sensitive/src/calc.py
+  s_7a468af0e95a14::t_e826fa5b195aef 1-3
+benchmarks/cases/case_28_security_sensitive/tests/test_calc.py
+  s_7a468af0e95a14::t_604ae3d87fb0c5 1-9
+benchmarks/cases/case_29_bad_dependency_config/case.json
+  s_7a468af0e95a14::t_9f77fbb1f1b65d 1-9
+benchmarks/cases/case_29_bad_dependency_config/pyproject.toml
+  s_7a468af0e95a14::t_4a84c84c6db01d 1-2
+benchmarks/cases/case_29_bad_dependency_config/pytest.ini
+  s_7a468af0e95a14::t_70adf6da672110 1-2
+benchmarks/cases/case_29_bad_dependency_config/src/calc.py
+  s_7a468af0e95a14::t_185e26fdfa0718 1-3
+benchmarks/cases/case_29_bad_dependency_config/tests/test_calc.py
+  s_7a468af0e95a14::t_745d30582feed7 1-9
+benchmarks/cases/case_30_unauthorized_tool_use/case.json
+  s_7a468af0e95a14::t_74b366a48e745d 1-9
+benchmarks/cases/case_30_unauthorized_tool_use/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_2d3e0e1f9d6259 1-9
+benchmarks/cases/case_30_unauthorized_tool_use/pyproject.toml
+  s_7a468af0e95a14::t_8332eec66947a1 1-2
+benchmarks/cases/case_30_unauthorized_tool_use/pytest.ini
+  s_7a468af0e95a14::t_0dfdc7bb5bec62 1-2
+benchmarks/cases/case_30_unauthorized_tool_use/src/calc.py
+  s_7a468af0e95a14::t_dd39b7adc0f39d 1-3
+benchmarks/cases/case_30_unauthorized_tool_use/tests/test_calc.py
+  s_7a468af0e95a14::t_e932ab9e5e7eb5 1-9
+benchmarks/cases/case_31_historical_defect/case.json
+  s_7a468af0e95a14::t_9a29b4cedaaf22 1-9
+benchmarks/cases/case_31_historical_defect/pyproject.toml
+  s_7a468af0e95a14::t_0dfdb93a7c345a 1-2
+benchmarks/cases/case_31_historical_defect/pytest.ini
+  s_7a468af0e95a14::t_bde3dfd02ea879 1-2
+benchmarks/cases/case_31_historical_defect/src/calc.py
+  s_7a468af0e95a14::t_01b458aa1da94f 1-3
+benchmarks/cases/case_31_historical_defect/tests/test_calc.py
+  s_7a468af0e95a14::t_93ec323f820ec4 1-9
+benchmarks/cases/case_32_synthetic_ci_failure/case.json
+  s_7a468af0e95a14::t_f3e7d2864c32b8 1-9
+benchmarks/cases/case_32_synthetic_ci_failure/hidden_tests/test_hidden.py
+  s_7a468af0e95a14::t_5d4d7fbdfe8e5b 1-9
+benchmarks/cases/case_32_synthetic_ci_failure/pyproject.toml
+  s_7a468af0e95a14::t_71fd8d98512e90 1-2
+benchmarks/cases/case_32_synthetic_ci_failure/pytest.ini
+  s_7a468af0e95a14::t_5b841e6ae8f55b 1-2
+benchmarks/cases/case_32_synthetic_ci_failure/src/calc.py
+  s_7a468af0e95a14::t_51cf6a8f9824ab 1-3
+benchmarks/cases/case_32_synthetic_ci_failure/tests/test_calc.py
+  s_7a468af0e95a14::t_9229286fb50ad3 1-9
+commercial/CUSTOMER_SEGMENTS.md
+  s_7a468af0e95a14::t_98e1a55cc217a7 1-31
+commercial/INTAKE_CHECKLIST.md
+  s_7a468af0e95a14::t_4ebe4585bb4b3c 1-11
+commercial/LANDING_PAGE.md
+  s_7a468af0e95a14::t_2eb61c4158175f 1-24
+commercial/PILOT_OFFER.md
+  s_7a468af0e95a14::t_26acc7d8b2ddb6 1-42
+commercial/SAMPLE_AUDIT_REPORT.md
+  s_7a468af0e95a14::t_9b156ae2fd913f 1-35
+docs/ARCHITECTURE.md
+  s_7a468af0e95a14::t_8aa62578fc3a92 1-35
+docs/COMPETITIVE_ANALYSIS.md
+  s_7a468af0e95a14::t_7ecae45bacbb88 1-61
+docs/FINAL_REPORT.md
+  s_96e3dbaf2dc8cc::t_6f05c83addc553 1-72
+docs/METRICS.md
+  s_7a468af0e95a14::t_d174e14a10500a 1-20
+docs/THREAT_MODEL.md
+  s_7a468af0e95a14::t_2c53d98bb29d10 1-38
+pyproject.toml
+  s_7a468af0e95a14::t_b7a3a6cb78c443 1-34
+schemas/evidence-v1.schema.json
+  s_7a468af0e95a14::t_9fd2257c1efae9 1-29
+scripts/generate_cases.py
+  s_7a468af0e95a14::t_538c5917e0135c 1-90
+src/karba/__init__.py
+  s_7a468af0e95a14::t_df4d14fd886c46 1-12
+src/karba/__main__.py
+  s_7a468af0e95a14::t_1378076fe7e69f 1-127
+src/karba/agents.py
+  s_7a468af0e95a14::t_24b48dcc799521 1-100
+src/karba/dashboard.py
+  s_7a468af0e95a14::t_2496f6ab16d260 1-82
+src/karba/engine.py
+  s_7a468af0e95a14::t_0079baeae1f4ae 1-191
+src/karba/evidence.py
+  s_7a468af0e95a14::t_a49cc0d7084f16 1-89
+src/karba/hashing.py
+  s_7a468af0e95a14::t_0d43d56e95e840 1-17
+src/karba/metrics.py
+  s_7a468af0e95a14::t_167241aaad4578 1-102
+src/karba/models.py
+  s_7a468af0e95a14::t_8ab6fd96b43973 1-43
+src/karba/security.py
+  s_7a468af0e95a14::t_ca1e6d8785cd33 1-56
+src/karba/store.py
+  s_7a468af0e95a14::t_48f381fe023a7c 1-72
+src/karba/verify.py
+  s_7a468af0e95a14::t_b0c03813cafe56 1-188
+tests/test_engine_smoke.py
+  s_7a468af0e95a14::t_048445708d12cf 1-40
+tests/test_metrics_evidence.py
+  s_7a468af0e95a14::t_5604af7be5ec23 1-35
+tests/test_security_permissions.py
+  s_7a468af0e95a14::t_5a20c2ea21a592 1-15
+docker/Dockerfile
+  s_7a468af0e95a14::t_4d01acc4b34818 1-6
+docker/run_verify_in_container.py
+  s_7a468af0e95a14::t_4e7ac5815ce623 1-92
+docs/PRIORITY_RESULTS.md
+  s_7a468af0e95a14::t_e2b269d4cbc31a 1-35
+docs/PRIORITY_UPGRADE.md
+  s_7a468af0e95a14::t_496f23faa87a62 1-30
+src/karba/adapters/__init__.py
+  s_7a468af0e95a14::t_c972dc94f81f77 1-6
+src/karba/adapters/aider_adapter.py
+  s_7a468af0e95a14::t_e7bbc6e1c897f3 1-52
+src/karba/adapters/common.py
+  s_7a468af0e95a14::t_2cfa772ceb58c2 1-38
+src/karba/adapters/openhands_adapter.py
+  s_7a468af0e95a14::t_e4b454de32a91f 1-50
+src/karba/docker_verify.py
+  s_7a468af0e95a14::t_8ab806d1bfafee 1-96
+src/karba/reproducibility.py
+  s_7a468af0e95a14::t_2a4584bf69c8c6 1-110
+tests/test_adapters.py
+  s_7a468af0e95a14::t_9b49ac60a7ed2a 1-39
+tests/test_docker_verify.py
+  s_7a468af0e95a14::t_21fe891c51f5c1 1-27
+tests/test_reproducibility.py
+  s_7a468af0e95a14::t_367b61a3984d54 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b78f8020ebe18ae2edeb02aa44c342171bdd5922",
+  "prompts": {},
+  "sessions": {
+    "s_7a468af0e95a14": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "748c575a-0aeb-49e6-9f23-95a455584f3e",
+        "model": "default"
+      },
+      "human_author": "Zixsa <dbdf0147@gmail.com>"
+    },
+    "s_96e3dbaf2dc8cc": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "de82c80d-ee88-444d-816a-444ff566bbd9",
+        "model": "default"
+      },
+      "human_author": "Zixsa <dbdf0147@gmail.com>"
+    }
+  }
+}
