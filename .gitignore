@@ -1,11 +1,75 @@
+# Virtual environments
 .venv/
+venv/
+env/
+.env/
+
+# Python bytecode / caches
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-evidence/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+.hypothesis/
+
+# Packaging / build
 *.egg-info/
+*.egg
 dist/
 build/
+wheels/
+pip-wheel-metadata/
+.eggs/
+*.manifest
+*.spec
+
+# Local secrets / env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Evidence & local runtime artifacts
+evidence/
 *.sqlite
+*.sqlite3
+*.db
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS / Windows
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Docker / local overrides
+docker-compose.override.yml
+
+# Jupyter
+.ipynb_checkpoints/
